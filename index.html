@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE SHOP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+      <div class="title">
+        <h1>Welcome To The Home Of Movies</h1>
+      </div>
+         <div class="more">
+           <nav>
+              <ul></ul>
+                <li><a href="a">About</a></li>
+                <li><a href="a">Services</a></li>
+                <li><a href="a">contact</a></li>
+                </ul>
+           </nav>
+         </div>        
+   </header>
+     <div class ="type">
+      <input type="text" placeholder="search..." id="searchInput">
+      <button onclick="searchMovies()">Search</button>
+    </div> 
+<div class="Services">
+    <p><b>Discover the Difference:</b> MAGIC BOX PRODUCTION, we pride ourselves on curating a diverse and captivating collection of films that span genres, eras, and cultures. From timeless classics to the latest blockbuster hits, our shelves (or digital library) are carefully selected to cater to every cinematic taste</p>
+    <p><b>The Cinematic Journey Begins:</b> Step into our space, and you'll be greeted by the aroma of fresh popcorn and the allure of cinematic wonders. Whether you're in the mood for an edge-of-your-seat thriller, a heartwarming family film, or an indie gem that sparks thought and conversation, we have it all.</p>
+</div>
+   <div class="different">
+      <h2>Services that Set Us Apart From Other Cinema:</h2>
+      <p><b>Personalized Recommendations:</b> Our knowledgeable staff (or advanced recommendation algorithms online) is here to guide you through our extensive collection, ensuring you find the perfect movie for your mood.</p>
+      <p><b>Movie Nights at Home:</b> Enjoy the comfort of your home with our convenient rental or purchase options. Choose from physical copies for collectors or dive into instant streaming for an on-demand cinematic experience.</p>
+      <p><b>Exclusive Events:</b> Stay tuned for our exclusive movie nights and events, where we bring the community together for screenings, discussions, and celebrations of the art of film.</p>
+   </div>
+   <div class="movies" id="movieDisplay">
+        <!-- Movie images will be dynamically added here -->
+   </div>
+   <button onclick="showPreviousMovie()">Previous</button>
+   <button onclick="showNextMovie()">Next</button>
+
+   <script src="script.js"></script>
+</body>
+</html>

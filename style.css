@@ -1,0 +1,55 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: black;
+  color: #e0e0e0;
+  padding: 20px;
+}
+
+.type {
+  text-align: center;
+}
+
+.Services{
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin: 15px; 
+  margin-right: 740px;
+  margin-top:80px;
+}
+.different{
+  background-color: aqua;
+  padding: 20px;
+  margin: 15px; 
+  margin-left: 600px;
+  margin-bottom: 130px;
+}
+.movies{
+  background-color:burlywood;
+  padding: 20px;
+  margin: 15px; 
+  margin-right: 750px;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #e0e0e0;
+}
